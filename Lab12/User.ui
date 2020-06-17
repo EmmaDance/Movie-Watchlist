@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>User</class>
+ <widget class="QWidget" name="User">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>282</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>User</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMinimumSize</enum>
+     </property>
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+</string>
+         </property>
+         <property name="text">
+          <string>Genre:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="genreEdit">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Copperplate Gothic Light&quot;;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QListWidget" name="currentMovie"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="startButton">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.227, x2:0.449, y2:1, stop:0 rgba(104, 227, 222, 255), stop:1 rgba(255, 255, 255, 255));
+font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+height:30px;</string>
+         </property>
+         <property name="text">
+          <string>Start</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="nextButton">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.227, x2:0.449, y2:1, stop:0 rgba(104, 227, 222, 255), stop:1 rgba(255, 255, 255, 255));
+font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+height:30px;</string>
+         </property>
+         <property name="text">
+          <string>Next</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.227, x2:0.449, y2:1, stop:0 rgba(104, 227, 222, 255), stop:1 rgba(255, 255, 255, 255));
+font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+height:30px;</string>
+       </property>
+       <property name="text">
+        <string>Add this movie to watchlist</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.227, x2:0.449, y2:1, stop:0 rgba(104, 227, 222, 255), stop:1 rgba(255, 255, 255, 255));
+font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+height:30px;</string>
+       </property>
+       <property name="text">
+        <string>Delete this movie from watchlist</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.227, x2:0.449, y2:1, stop:0 rgba(104, 227, 222, 255), stop:1 rgba(255, 255, 255, 255));
+font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+height:30px;</string>
+       </property>
+       <property name="text">
+        <string>Save the watchlist </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="seeButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494318, y1:0.227, x2:0.449, y2:1, stop:0 rgba(104, 227, 222, 255), stop:1 rgba(255, 255, 255, 255));
+font: 16pt &quot;Copperplate Gothic Light&quot;;
+color: rgb(0, 94, 109);
+height:30px;</string>
+       </property>
+       <property name="text">
+        <string>See the watchlist </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
